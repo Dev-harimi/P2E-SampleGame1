@@ -11,7 +11,7 @@ public class ERC721BalanceOfExample : MonoBehaviour
     async void Start()
     {
         string chain = "ethereum";
-        string network = "mainnet";
+        string network = "ropsten";
         string contract = "0xce591197A5e9ed499d1658512d690682e023c303";
         string account = PlayerPrefs.GetString("Account");
 
